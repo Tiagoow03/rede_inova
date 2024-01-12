@@ -60,7 +60,7 @@ class _InputTextoPadraoState extends State<InputTextoPadrao> {
                     )
                   : null,
             ),
-            obscureText: esconderTexto,
+            obscureText: widget.senha ? esconderTexto : false,
           ),
         ),
       ],

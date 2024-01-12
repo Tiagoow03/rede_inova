@@ -73,7 +73,7 @@ class _LoginPageState extends State<LoginPage> {
               Image.asset('assets/images/img.png', width: 100),
               const SizedBox(height: 48),
               InputTextoPadrao(
-                controller: _senhaController,
+                controller: _loginController,
                 labelInput: 'Login',
                 hintText: 'Digite o nome de usuário',
               ),
