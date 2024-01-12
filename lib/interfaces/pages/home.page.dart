@@ -42,7 +42,7 @@ class _HomePageState extends State<HomePage> {
                 style: TextStyle(fontSize: 24),
               ),
               const Text(
-                'Escolhar por onde começar:',
+                'Escolha por onde começar:',
                 style: TextStyle(fontSize: 16),
               ),
               const SizedBox(height: 16),
