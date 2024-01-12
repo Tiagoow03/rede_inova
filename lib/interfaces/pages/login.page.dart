@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:rede_inova/interfaces/pages/home.page.dart';
 import 'dart:convert';
-import 'package:rede_inova/interfaces/pages/links.page.dart';
 import 'package:rede_inova/interfaces/widgets/botao_padrao.widget.dart';
 import 'package:rede_inova/interfaces/widgets/input_texto_padrao.widget.dart';
 
