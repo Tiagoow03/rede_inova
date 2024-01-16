@@ -15,7 +15,6 @@ class LoginPage extends StatefulWidget {
 class _LoginPageState extends State<LoginPage> {
   final TextEditingController _loginController = TextEditingController();
   final TextEditingController _senhaController = TextEditingController();
-  bool esconderTexto = true;
 
   Future<void> _login() async {
     final String login = _loginController.text.trim();
